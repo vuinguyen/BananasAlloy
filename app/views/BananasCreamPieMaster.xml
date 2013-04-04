@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="bananaCreamPieView" title="Banana Cream Pies" class="container" onClick="openDetail">
+		<TableView id="bananaCreamPieTable" />
+	</Window>
+</Alloy>

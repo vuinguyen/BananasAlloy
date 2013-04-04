@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="bananasMasterView" title="Bananas" class="container">
+		<Require type="view" src="BananasMasterTable" id="bananasMasterTable" />
+	</Window>
+</Alloy>

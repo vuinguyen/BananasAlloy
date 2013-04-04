@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="bananaCreamPieDetailView" title="Banana Cream Pie Price" class="container">
+		<Label id="bananaCreamPieDetailLabel">Default Text</Label>
+	</Window>
+</Alloy>

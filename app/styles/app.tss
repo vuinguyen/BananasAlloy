@@ -1,0 +1,23 @@
+".container": {
+	backgroundColor:"white",
+},
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "black"
+} 
+
+"Button": {
+	color: "black"
+}
+
+"TableViewRow": {
+	color: "black",
+	hasChild: "true"
+}
+/*
+"Window[platform=android]": {
+    navBarHidden: true
+},
+*/

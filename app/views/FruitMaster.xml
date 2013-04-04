@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="fruitMasterView" title="Fruits" class="container">
+		<TableView id="fruitTable" onClick="openDetail">
+			<TableViewRow title="Apples" price="1.25" />
+			<TableViewRow title="Grapes" price="1.50"/>
+			<TableViewRow title="Oranges" price="2.50"/>
+			<TableViewRow title="Bananas" price="1.50"/>
+			<TableViewRow title="Pears" price="1.40"/>
+			<TableViewRow title="Kiwis" price="1.00"/>	
+		</TableView>
+	</Window>
+</Alloy>

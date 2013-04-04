@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="fruitDetailView" title="Fruit Price" class="container">
+		<Label id="fruitDetailLabel">Default Text</Label>
+	</Window>
+</Alloy>

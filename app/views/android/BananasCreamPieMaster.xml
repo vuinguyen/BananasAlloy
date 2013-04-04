@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="bananaCreamPieView" title="Banana Cream Pies" class="container" onClick="openDetail">
+		<TableView id="bananaCreamPieTable">
+			<TableViewRow title="Small" price="1.25" />
+			<TableViewRow title="Medium" price="1.50 "/>
+			<TableViewRow title="Large" price="2.50"/>
+		</TableView>
+	</Window>
+</Alloy>
+
+<!--
+	We need to pass the custom attribute "price" into the TableViewRow through XML 
+	for Android because there is a bug that doesn't allow us to do it dynamically via the
+	controller (but it works for iOS)
+-->
