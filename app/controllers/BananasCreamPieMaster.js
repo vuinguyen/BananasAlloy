@@ -1,10 +1,7 @@
 function openDetail(e)
 {
-	alert('Price: $' + e.rowData.price);
-	/*
-	alert('Title: ' + e.rowData.title + 
-	'\nPrice: ' + e.rowData.customValue);*/
-	//alert('Title: ' + e.source.parent.children[0].customValue);
+	alert('Price: $' + e.row.price);
+	//alert('Price: $' + e.rowData.price); // This does not work for Android!
 }
 
 var data = [];
